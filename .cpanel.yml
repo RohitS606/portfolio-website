@@ -2,6 +2,4 @@
 deployment:
       tasks:
         - export DEPLOYPATH=/home/rohitsan/public_html
-        - /bin cp /repositories/portfolio-website/* $DEPLOYPATH
-        
-        
+        - /bin cp /portfolio-website/* $DEPLOYPATH
